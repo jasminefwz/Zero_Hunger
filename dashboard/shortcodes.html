@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Account - Bootstrap Admin Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">    
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+   
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+<body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+		  <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </a><a class="brand" href="index.html">Admin Zero Hunger</a>
+			<div class="nav-collapse">
+			  <ul class="nav pull-right">
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+								  class="icon-cog"></i> Account <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="javascript:;">Settings</a></li>
+					<li><a href="javascript:;">Help</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+								  class="icon-user"></i> EGrappler.com <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="javascript:;">Profile</a></li>
+					<li><a href="../index.php">Logout</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <form class="navbar-search pull-right">
+				<input type="text" class="search-query" placeholder="Search">
+			  </form>
+			</div>
+			<!--/.nav-collapse --> 
+		  </div>
+		  <!-- /container --> 
+		</div>
+		<!-- /navbar-inner --> 
+	  </div>
+	  <!-- /navbar -->
+	  <div class="subnavbar">
+		<div class="subnavbar-inner">
+		  <div class="container">
+			<ul class="mainnav">
+			  <li><a href="index.html"><i class="icon-dashboard"></i><span>Dashboard</span> </a> </li>
+			  <li class="active"><a href="shortcodes.html"><i class="icon-code"></i><span>Form</span> </a> </li>
+			  <li><a href="../index.php"><i class="icon-list-alt"></i><span>Home</span></a></li>
+				<ul class="dropdown-menu">
+				  <li><a href="icons.html">Icons</a></li>
+				  <li><a href="faq.html">FAQ</a></li>
+				  <li><a href="pricing.html">Pricing Plans</a></li>
+				  <li><a href="login.html">Login</a></li>
+				  <li><a href="signup.html">Signup</a></li>
+				  <li><a href="error.html">404</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </div>
+		  <!-- /container --> 
+		</div>
+		<!-- /subnavbar-inner --> 
+    
+    
+
+<div class="main">
+	
+	<div class="main-inner">
+
+	    <div class="container">
+	
+	      <div class="row">
+	      	
+	      	<div class="span12">      		
+	      		
+	      		<div class="widget ">
+	      			
+	      			<div class="widget-header">
+	      				<i class="icon-user"></i>
+	      				<h3></h3>
+	  				</div> <!-- /widget-header -->
+					
+					<div class="widget-content">
+						
+						
+						
+						<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<P>Form untuk menambahkan kasus silahkan tekan Form Kasus Kelaparan</P>
+						  <li>
+						    <a href="#formcontrolskasus" data-toggle="tab">Form Penambahan Kasus Kelaparan</a>
+						  </li>
+						  <li>
+							<a href="#formupdatekasus" data-toggle="tab">Form UPDATE Kasus Kelaparan</a>
+						</li>
+						<li>
+							<a href="#formdeletekasus" data-toggle="tab">Form DELETE Kasus Kelaparan</a>
+						</li>
+						</ul>
+						
+						<br>
+						
+							<div class="tab-content">
+								<div class="tab-pane" id="formcontrolskasus">
+								<form id="edit-profile" class="form-horizontal">
+									<fieldset>
+
+										<div class="control-group">											
+											<label class="control-label" for="year">Tahun</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="year value="Example">
+												<p class="help-block">2015</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										
+										<div class="control-group">											
+											<label class="control-label" for="username">Jumlah kasus</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="username" value="Example">
+												<p class="help-block">29.000.000</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										
+										
+										<div class="control-group">											
+											<label class="control-label" for="username">Tingkat Kelaparan</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="username" value="Example">
+												<p class="help-block">29.00</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										  
+										  <div class="control-group">
+											<label class="control-label" for="kalangan">Kalangan</label>
+											<div class="controls">
+											  <select class="span6" id="kalangan">
+												<option value="Anak - Anak">Anak - Anak</option>
+												<option value="Remaja">Remaja</option>
+												<option value="Dewasa">Dewasa</option>
+												<option value="Keseluruhan">Keseluruhan</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="keberhasilan">Keberhasilan</label>
+											<div class="controls">
+											  <select class="span6" id="keberhasilan">
+												<option value="10%">10%</option>
+												<option value="20%">20%</option>
+												<option value="30%">30%</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										 <br />
+									
+										<div class="form-actions">
+											<button type="submit" class="btn btn-primary">Tambah</button> 
+											<button class="btn">Reset</button>
+										</div> <!-- /form-actions -->
+									</fieldset>
+								</form>
+								</div>									
+							</div>
+							<div class="tab-content">
+								<div class="tab-pane" id="formupdatekasus">
+								<form id="edit-profile" class="form-horizontal">
+									<fieldset>
+										
+										<div class="control-group">											
+											<label class="control-label" for="username">Jumlah Kaus</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="username" value="Example">
+												<p class="help-block">29.000.000</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										
+										
+										<div class="control-group">
+											<label class="control-label" for="tingkatKelaparan">Tingkat Kelaparan</label>
+											<div class="controls">
+											  <select class="span6" id="tingkatKelaparan">
+												<option value="20.5">20,5</option>
+												<option value="30.2">30,2</option>
+												<option value="15.8">15,8</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="kalangan">Kalangan</label>
+											<div class="controls">
+											  <select class="span6" id="kalangan">
+												<option value="Anak - Anak">Anak - Anak</option>
+												<option value="Remaja">Remaja</option>
+												<option value="Dewasa">Dewasa</option>
+												<option value="Keseluruhan">Keseluruhan</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="keberhasilan">Keberhasilan</label>
+											<div class="controls">
+											  <select class="span6" id="keberhasilan">
+												<option value="10%">10%</option>
+												<option value="20%">20%</option>
+												<option value="30%">30%</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										 <br />
+									
+										<div class="form-actions">
+											<button type="submit" class="btn btn-primary">Update</button> 
+											<button class="btn">cancel</button>
+										</div> <!-- /form-actions -->
+									</fieldset>
+								</form>
+								</div>
+								<div class="tab-content">
+									<div class="tab-pane" id="formdeletekasus">
+									<form id="edit-profile" class="form-horizontal">
+										<fieldset>
+											
+											<div class="control-group">											
+												<label class="control-label" for="username">Jumlah Kaus</label>
+												<div class="controls">
+													<input type="text" class="span6 disabled" id="username" value="Example">
+													<p class="help-block">29.000.000</p>
+												</div> <!-- /controls -->				
+											</div> <!-- /control-group -->
+											
+											
+											<div class="control-group">
+												<label class="control-label" for="tingkatKelaparan">Tingkat Kelaparan</label>
+												<div class="controls">
+												  <select class="span6" id="tingkatKelaparan">
+													<option value="20.5">20,5</option>
+													<option value="30.2">30,2</option>
+													<option value="15.8">15,8</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+											  <div class="control-group">
+												<label class="control-label" for="kalangan">Kalangan</label>
+												<div class="controls">
+												  <select class="span6" id="kalangan">
+													<option value="Anak - Anak">Anak - Anak</option>
+													<option value="Remaja">Remaja</option>
+													<option value="Dewasa">Dewasa</option>
+													<option value="Keseluruhan">Keseluruhan</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+											  <div class="control-group">
+												<label class="control-label" for="keberhasilan">Keberhasilan</label>
+												<div class="controls">
+												  <select class="span6" id="keberhasilan">
+													<option value="10%">10%</option>
+													<option value="20%">20%</option>
+													<option value="30%">30%</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+	
+											 <br />
+										
+											<div class="form-actions">
+												<button type="submit" class="btn btn-primary">Tambah</button> 
+												<button class="btn">Reset</button>
+											</div> <!-- /form-actions -->
+										</fieldset>
+									</form>
+									</div>									
+								</div>			
+							</div>
+						</div>
+						
+						
+					</div> <!-- /widget-content -->
+
+					<div class="widget-content">
+						
+						
+						
+						<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<P>Form untuk menambahkan kebutuhan silahkan tekan Form</P>
+						  <li>
+						    <a href="#formcontrolskebutuhan" data-toggle="tab">Form Penambahan kebutuhan</a>
+						  </li>
+						  <li>
+							<a href="#formupdatekebutuhan" data-toggle="tab">Form UPDATE kebutuhan</a>
+						</li>
+						<li>
+							<a href="#formdeletekebutuhan" data-toggle="tab">Form DELETE kebutuhan</a>
+						</li>
+						</ul>
+						
+						<br>
+						
+							<div class="tab-content">
+								<div class="tab-pane" id="formcontrolskebutuhan">
+								<form id="edit-profile" class="form-horizontal">
+									<fieldset>
+										
+										<div class="control-group">											
+											<label class="control-label" for="username">Jumlah Kaus</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="username" value="Example">
+												<p class="help-block">29.000.000</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										
+										
+										<div class="control-group">
+											<label class="control-label" for="tingkatKelaparan">Tingkat Kelaparan</label>
+											<div class="controls">
+											  <select class="span6" id="tingkatKelaparan">
+												<option value="20.5">20,5</option>
+												<option value="30.2">30,2</option>
+												<option value="15.8">15,8</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="kalangan">Kalangan</label>
+											<div class="controls">
+											  <select class="span6" id="kalangan">
+												<option value="Anak - Anak">Anak - Anak</option>
+												<option value="Remaja">Remaja</option>
+												<option value="Dewasa">Dewasa</option>
+												<option value="Keseluruhan">Keseluruhan</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="keberhasilan">Keberhasilan</label>
+											<div class="controls">
+											  <select class="span6" id="keberhasilan">
+												<option value="10%">10%</option>
+												<option value="20%">20%</option>
+												<option value="30%">30%</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										 <br />
+									
+										<div class="form-actions">
+											<button type="submit" class="btn btn-primary">Tambah</button> 
+											<button class="btn">Reset</button>
+										</div> <!-- /form-actions -->
+									</fieldset>
+								</form>
+								</div>									
+							</div>
+							<div class="tab-content">
+								<div class="tab-pane" id="formupdatekebutuhan">
+								<form id="edit-profile" class="form-horizontal">
+									<fieldset>
+										
+										<div class="control-group">											
+											<label class="control-label" for="username">Jumlah Kaus</label>
+											<div class="controls">
+												<input type="text" class="span6 disabled" id="username" value="Example">
+												<p class="help-block">29.000.000</p>
+											</div> <!-- /controls -->				
+										</div> <!-- /control-group -->
+										
+										
+										<div class="control-group">
+											<label class="control-label" for="tingkatKelaparan">Tingkat Kelaparan</label>
+											<div class="controls">
+											  <select class="span6" id="tingkatKelaparan">
+												<option value="20.5">20,5</option>
+												<option value="30.2">30,2</option>
+												<option value="15.8">15,8</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="kalangan">Kalangan</label>
+											<div class="controls">
+											  <select class="span6" id="kalangan">
+												<option value="Anak - Anak">Anak - Anak</option>
+												<option value="Remaja">Remaja</option>
+												<option value="Dewasa">Dewasa</option>
+												<option value="Keseluruhan">Keseluruhan</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+										  <div class="control-group">
+											<label class="control-label" for="keberhasilan">Keberhasilan</label>
+											<div class="controls">
+											  <select class="span6" id="keberhasilan">
+												<option value="10%">10%</option>
+												<option value="20%">20%</option>
+												<option value="30%">30%</option>
+												<!-- Tambahkan opsi dropdown lainnya di sini -->
+											  </select>
+											</div>
+										  </div>
+										  
+									
+										<div class="form-actions">
+											<button type="submit" class="btn btn-primary">Update</button> 
+											<button class="btn">cancel</button>
+										</div> <!-- /form-actions -->
+									</fieldset>
+								</form>
+								</div>
+								<div class="tab-content">
+									<div class="tab-pane" id="formdeletekebutuhan">
+									<form id="edit-profile" class="form-horizontal">
+										<fieldset>
+											
+											<div class="control-group">											
+												<label class="control-label" for="username">Jumlah Kaus</label>
+												<div class="controls">
+													<input type="text" class="span6 disabled" id="username" value="Example">
+													<p class="help-block">29.000.000</p>
+												</div> <!-- /controls -->				
+											</div> <!-- /control-group -->
+											
+											
+											<div class="control-group">
+												<label class="control-label" for="tingkatKelaparan">Tingkat Kelaparan</label>
+												<div class="controls">
+												  <select class="span6" id="tingkatKelaparan">
+													<option value="20.5">20,5</option>
+													<option value="30.2">30,2</option>
+													<option value="15.8">15,8</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+											  <div class="control-group">
+												<label class="control-label" for="kalangan">Kalangan</label>
+												<div class="controls">
+												  <select class="span6" id="kalangan">
+													<option value="Anak - Anak">Anak - Anak</option>
+													<option value="Remaja">Remaja</option>
+													<option value="Dewasa">Dewasa</option>
+													<option value="Keseluruhan">Keseluruhan</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+											  <div class="control-group">
+												<label class="control-label" for="keberhasilan">Keberhasilan</label>
+												<div class="controls">
+												  <select class="span6" id="keberhasilan">
+													<option value="10%">10%</option>
+													<option value="20%">20%</option>
+													<option value="30%">30%</option>
+													<!-- Tambahkan opsi dropdown lainnya di sini -->
+												  </select>
+												</div>
+											  </div>
+											  
+											 <br />
+										
+											<div class="form-actions">
+												<button type="submit" class="btn btn-primary">Tambah</button> 
+												<button class="btn">Reset</button>
+											</div> <!-- /form-actions -->
+										</fieldset>
+									</form>
+									</div>									
+								</div>			
+							</div>
+						</div>
+						
+					</div> <!-- /widget-content -->
+						
+				</div> <!-- /widget -->
+	      		
+		    </div> <!-- /span8 -->
+	      	
+	      </div> <!-- /row -->
+	
+	    </div> <!-- /container -->
+	    
+	</div> <!-- /main-inner -->
+    
+</div> <!-- /main -->
+						
+				</div> <!-- /widget -->
+	      		
+		    </div> <!-- /span8 -->
+	      	
+	      </div> <!-- /row -->
+	
+	    </div> <!-- /container -->
+	    
+	</div> <!-- /main-inner -->
+	
+</div> <!-- /main -->
+
+
+    
+    
+    
+ 
+<div class="extra">
+
+	<div class="extra-inner">
+
+		<div class="container">
+
+			<div class="row">
+                    <div class="span3">
+                        <h4>
+                            About Free Admin Template</h4>
+                        <ul>
+                            <li><a href="javascript:;">EGrappler.com</a></li>
+                            <li><a href="javascript:;">Web Development Resources</a></li>
+                            <li><a href="javascript:;">Responsive HTML5 Portfolio Templates</a></li>
+                            <li><a href="javascript:;">Free Resources and Scripts</a></li>
+                        </ul>
+                    </div>
+                    <!-- /span3 -->
+                    <div class="span3">
+                        <h4>
+                            Support</h4>
+                        <ul>
+                            <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                            <li><a href="javascript:;">Ask a Question</a></li>
+                            <li><a href="javascript:;">Video Tutorial</a></li>
+                            <li><a href="javascript:;">Feedback</a></li>
+                        </ul>
+                    </div>
+                    <!-- /span3 -->
+                    <div class="span3">
+                        <h4>
+                            Something Legal</h4>
+                        <ul>
+                            <li><a href="javascript:;">Read License</a></li>
+                            <li><a href="javascript:;">Terms of Use</a></li>
+                            <li><a href="javascript:;">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!-- /span3 -->
+                    <div class="span3">
+                        <h4>
+                            Open Source jQuery Plugins</h4>
+                        <ul>
+                            <li><a href="">Open Source jQuery Plugins</a></li>
+                            <li><a href="">HTML5 Responsive Tempaltes</a></li>
+                            <li><a href="">Free Contact Form Plugin</a></li>
+                            <li><a href="">Flat UI PSD</a></li>
+                        </ul>
+                    </div>
+                    <!-- /span3 -->
+                </div> <!-- /row -->
+
+		</div> <!-- /container -->
+
+	</div> <!-- /extra-inner -->
+
+</div> <!-- /extra -->
+
+
+    
+    
+<div class="footer">
+	
+	<div class="footer-inner">
+		
+		<div class="container">
+			
+			<div class="row">
+				
+    			<div class="span12">
+    				&copy; 2013 <a href="#">Bootstrap Responsive Admin Template</a>.
+    			</div> <!-- /span12 -->
+    			
+    		</div> <!-- /row -->
+    		
+		</div> <!-- /container -->
+		
+	</div> <!-- /footer-inner -->
+	
+</div> <!-- /footer -->
+    
+
+
+<script src="js/jquery-1.7.2.min.js"></script>
+	
+<script src="js/bootstrap.js"></script>
+<script src="js/base.js"></script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	  var formControlsTab = document.getElementById("formcontrolskasus");
+	  var formUpdateTab = document.getElementById("formupdatekasus");
+	  var formDeleteTab = document.getElementById("formdeletekasus");
+
+  
+	  function handleTabToggle(event) {
+		var activeTab = event.target.getAttribute("href");
+  
+		if (activeTab === "#formcontrolskasus") {
+		  formControlsTab.style.display = "block";
+		  formUpdateTab.style.display = "none";
+		  formDeleteTab.style.display = "none";
+		} else if (activeTab === "#formupdatekasus") {
+		  formControlsTab.style.display = "none";
+		  formUpdateTab.style.display = "block";
+		  formDeleteTab.style.display = "none";
+		} else if (activeTab === "#formdeletekasus") {
+		  formControlsTab.style.display = "none";
+		  formUpdateTab.style.display = "none";
+		  formDeleteTab.style.display = "block";
+		}
+	  }
+  
+	  var tabLinks = document.querySelectorAll(".nav-tabs a");
+	  for (var i = 0; i < tabLinks.length; i++) {
+		tabLinks[i].addEventListener("click", handleTabToggle);
+	  }
+  
+	  // Set tampilan awal berdasarkan tab yang aktif saat halaman dimuat
+	  var activeTab = document.querySelector(".nav-tabs li.active a");
+	  handleTabToggle({ target: activeTab });
+	});
+  </script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	  var formControlsTab = document.getElementById("formcontrolskebutuhan");
+	  var formUpdateTab = document.getElementById("formupdatekebutuhan");
+	  var formDeleteTab = document.getElementById("formdeletekebutuhan");
+  
+	  function handleTabToggle(event) {
+		var activeTab = event.target.getAttribute("href");
+  
+		if (activeTab === "#formcontrolskebutuhan") {
+		  formControlsTab.style.display = "block";
+		  formUpdateTab.style.display = "none";
+		  formDeleteTab.style.display = "none";
+		} else if (activeTab === "#formupdatekebutuhan") {
+		  formControlsTab.style.display = "none";
+		  formUpdateTab.style.display = "block";
+		  formDeleteTab.style.display = "none";
+		} else if (activeTab === "#formdeletekebutuhan") {
+		  formControlsTab.style.display = "none";
+		  formUpdateTab.style.display = "none";
+		  formDeleteTab.style.display = "block";
+		}
+	  }
+  
+	  var tabLinks = document.querySelectorAll(".nav-tabs a");
+	  for (var i = 0; i < tabLinks.length; i++) {
+		tabLinks[i].addEventListener("click", handleTabToggle);
+	  }
+  
+	  // Set tampilan awal berdasarkan tab yang aktif saat halaman dimuat
+	  var activeTab = document.querySelector(".nav-tabs li.active a");
+	  handleTabToggle({ target: activeTab });
+	});
+  </script>
+  
+  
+
+
+  </body>
+
+</html>
+var formControlsTab = document.getElementById("formcontrolskebutuhan");
+var formUpdateTab = document.getElementById("formupdatekebutuhan");
+var formDeleteTab = document.getElementById("formdeletekebutuhan");
